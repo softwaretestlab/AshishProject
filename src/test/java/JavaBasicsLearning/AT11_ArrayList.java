@@ -37,3 +37,23 @@ public class AT11_ArrayList {
 
     }
 }
+/*
+------
+Array:
+------
+The size of an array is fixed when it is created, and it cannot be changed. You must specify the array size during initialization.
+-------
+Example:
+--------
+int[] arr = new int[5];  // Array of size 5
+=====================================================================================================================================
+ArrayList:
+---------
+The size of an ArrayList is dynamic. It can grow and shrink as elements are added or removed.
+--------
+Example:
+--------
+ArrayList<Integer> list = new ArrayList<>();  // ArrayList with dynamic size
+list.add(1);  // Adds an element
+list.remove(0);  // Removes the first element
+ */
