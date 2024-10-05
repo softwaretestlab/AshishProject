@@ -16,7 +16,8 @@ public class AT01_NavigateTitleAssertScreenshot {
     @Test
     public void navigation() throws IOException {
         //Chromedriver setup
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir"));
+        WebDriverManager.chromedriver().clearDriverCache().setup();
         //this below line will open chrome browser
         WebDriver driver = new ChromeDriver();
         //maximize browser
