@@ -10,7 +10,7 @@ import java.time.Duration;
 public class OpenBrowser {
     public static WebDriver driver;
 
-    public static String NavToWeb(String url){
+    public static void NavToWeb(String url){
         //setting up chromedriver
         WebDriverManager.chromedriver().setup();
         //options
@@ -27,6 +27,5 @@ public class OpenBrowser {
         //Navigate to HN website
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        return url;
-    }
+          }
 }

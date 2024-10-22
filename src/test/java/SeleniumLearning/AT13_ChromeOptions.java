@@ -26,7 +26,7 @@ public class AT13_ChromeOptions extends OpenBrowser {
 //        WebDriver driver = new ChromeDriver(chromeOptions);
 //        //Navigate to HN website
 //        driver.get("https://echoecho.com/");
-        driver.get(OpenBrowser.NavToWeb("https://echoecho.com/"));
+          OpenBrowser.NavToWeb("abc");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 }
