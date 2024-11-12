@@ -2,7 +2,7 @@ package SeleniumLearning;
 
 import org.junit.Test;
 
-public class AT18_rmletter {
+public class AT11_rmletter {
 
 
     @Test
